@@ -1,0 +1,30 @@
+a.out : main.o signin.o signup.o sync.o save.o train.o reserve.o cancel.o booking.o input.o date_check.o password.o menu.o free.o
+	gcc main.o signin.o signup.o sync.o save.o train.o reserve.o cancel.o booking.o input.o date_check.o password.o menu.o free.o
+main.o : main.c
+	gcc -c main.c
+menu.o : menu.c
+	gcc -c menu.c
+signin.o : signin.c
+	gcc -c signin.c
+signup.o : signup.c
+	gcc -c signup.c
+sync.o : sync.c
+	gcc -c sync.c
+save.o : save.c
+	gcc -c save.c
+train.o : train.c
+	gcc -c train.c
+reserve.o : reserve.c
+	gcc -c reserve.c
+cancel.o : cancel.c
+	gcc -c cancel.c
+booking.o : booking.c
+	gcc -c booking.c
+input.o : input.c
+	gcc -c input.c
+date_check.o : date_check.c
+	gcc -c date_check.c
+password.o : password.c
+	gcc -c password.c
+free.o : free.c
+	gcc -c free.c
